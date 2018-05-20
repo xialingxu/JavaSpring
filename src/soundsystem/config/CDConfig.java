@@ -1,7 +1,9 @@
-package soundsystem;
+package soundsystem.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import soundsystem.CompactDisc;
+import soundsystem.SgtPeppers;
 
 @Configuration
 public class CDConfig {

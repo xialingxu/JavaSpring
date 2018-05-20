@@ -6,17 +6,18 @@ import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
-import soundsystem.config.CDPlayerConfig;
+import soundsystem.config.EnvironmentConfig;
 
 @RunWith(SpringJUnit4ClassRunner.class)
-@ContextConfiguration(classes = CDPlayerConfig.class)
-public class CDPlayerConfigTest {
+@ContextConfiguration(classes = EnvironmentConfig.class)
+public class EnvTest {
+
     @Autowired
-    private CompactDisc cd;
+    private BlankDisc blankDisc;
 
     @Test
-    public void cdShouldNotBeNull() {
-        assertNotNull(cd);
-        assertEquals(2, 1 + 1);
+    public void assertBlankDiscProperties() {
+        assertEquals("The Beatles", blankDisc.getArtist());
+        assertEquals("Sgt. Peppers Lonely Hearts Club Band", blankDisc.getTitle());
     }
 }
