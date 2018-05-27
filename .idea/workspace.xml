@@ -7,37 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b81cfcd6-16d8-420d-9416-ce7bc565a954" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_8_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_digester_commons_digester_2_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tiles_tiles_api_3_0_8.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tiles_tiles_autotag_core_runtime_1_2.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tiles_tiles_core_3_0_8.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tiles_tiles_jsp_3_0_8.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tiles_tiles_request_api_1_0_7.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tiles_tiles_request_jsp_1_0_7.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tiles_tiles_request_servlet_1_0_7.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tiles_tiles_servlet_3_0_8.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tiles_tiles_template_3_0_8.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_6.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/springmvc/src/main/webapp/WEB-INF/layout/footer.jsp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/springmvc/src/main/webapp/WEB-INF/layout/header.jsp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/springmvc/src/main/webapp/WEB-INF/layout/page.jsp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/springmvc/src/main/webapp/WEB-INF/layout/tiles.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/springmvc_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/springmvc_war_exploded.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/springmvc/pom.xml" afterPath="$PROJECT_DIR$/springmvc/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/springmvc/springmvc.iml" afterPath="$PROJECT_DIR$/springmvc/springmvc.iml" />
-      <change beforePath="$PROJECT_DIR$/springmvc/src/main/java/spittr/web/WebConfig.java" afterPath="$PROJECT_DIR$/springmvc/src/main/java/spittr/web/WebConfig.java" />
-      <change beforePath="$PROJECT_DIR$/springmvc/src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml" afterPath="$PROJECT_DIR$/springmvc/src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml" />
-      <change beforePath="$PROJECT_DIR$/springmvc/src/main/webapp/WEB-INF/views/home.jsp" afterPath="$PROJECT_DIR$/springmvc/src/main/webapp/WEB-INF/views/home.jsp" />
-      <change beforePath="$PROJECT_DIR$/springmvc/target/classes/WEB-INF/spring/appServlet/servlet-context.xml" afterPath="$PROJECT_DIR$/springmvc/target/classes/WEB-INF/spring/appServlet/servlet-context.xml" />
-      <change beforePath="$PROJECT_DIR$/springmvc/target/classes/WEB-INF/views/home.jsp" afterPath="$PROJECT_DIR$/springmvc/target/classes/WEB-INF/views/home.jsp" />
-      <change beforePath="$PROJECT_DIR$/springmvc/target/classes/appServlet/servlet-context.xml" afterPath="$PROJECT_DIR$/springmvc/target/classes/appServlet/servlet-context.xml" />
-      <change beforePath="$PROJECT_DIR$/springmvc/target/classes/home.jsp" afterPath="$PROJECT_DIR$/springmvc/target/classes/home.jsp" />
-      <change beforePath="$PROJECT_DIR$/springmvc/target/classes/servlet-context.xml" afterPath="$PROJECT_DIR$/springmvc/target/classes/servlet-context.xml" />
-      <change beforePath="$PROJECT_DIR$/springmvc/target/classes/spittr/web/WebConfig.class" afterPath="$PROJECT_DIR$/springmvc/target/classes/spittr/web/WebConfig.class" />
-      <change beforePath="$PROJECT_DIR$/springmvc/target/classes/spring/appServlet/servlet-context.xml" afterPath="$PROJECT_DIR$/springmvc/target/classes/spring/appServlet/servlet-context.xml" />
-      <change beforePath="$PROJECT_DIR$/springmvc/target/classes/views/home.jsp" afterPath="$PROJECT_DIR$/springmvc/target/classes/views/home.jsp" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/springmvc/target/" />
@@ -66,11 +36,10 @@
       <file leaf-file-name="WebConfig.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/springmvc/src/main/java/spittr/web/WebConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="53" column="36" lean-forward="false" selection-start-line="53" selection-start-column="19" selection-end-line="53" selection-end-column="36" />
+            <state relative-caret-position="297">
+              <caret line="52" column="40" lean-forward="true" selection-start-line="52" selection-start-column="40" selection-end-line="52" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1796#1797#0" expanded="true" />
                 <element signature="e#1842#1843#0" expanded="true" />
               </folding>
             </state>
@@ -845,7 +814,7 @@
       <workItem from="1526805287439" duration="270000" />
       <workItem from="1527313118657" duration="8516000" />
       <workItem from="1527325071636" duration="2584000" />
-      <workItem from="1527347891836" duration="33078000" />
+      <workItem from="1527347891836" duration="33085000" />
     </task>
     <servers />
   </component>
@@ -882,11 +851,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67065000" />
+    <option name="totallyTimeSpent" value="67072000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -896,7 +864,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3496732" sideWeight="0.128125" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32897604" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17239584" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3496732" sideWeight="0.871875" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3496732" sideWeight="0.871875" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1351,11 +1319,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/springmvc/src/main/java/spittr/web/WebConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="53" column="36" lean-forward="false" selection-start-line="53" selection-start-column="19" selection-end-line="53" selection-end-column="36" />
+        <state relative-caret-position="297">
+          <caret line="52" column="40" lean-forward="true" selection-start-line="52" selection-start-column="40" selection-end-line="52" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1796#1797#0" expanded="true" />
             <element signature="e#1842#1843#0" expanded="true" />
           </folding>
         </state>
