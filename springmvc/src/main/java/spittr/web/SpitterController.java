@@ -28,16 +28,20 @@ public class SpitterController {
         return "registerForm";
     }
 
+
     @RequestMapping(value="/register", method=POST)
     public String processRegistration(
             @Valid Spitter spitter,
-            Errors errors) {
+            Errors errors,
+            Model model) {
         if (errors.hasErrors()) {
             return "registerForm";
         }
 
 //        spitterRepository.save(spitter);
-        return "redirect:/spitter/" + spitter.getUsername();
+        model.addAttribute("username",spitter.getUsername());
+        model.addAttribute("spitterId",spitter.getId());
+        return "redirect:/spitter/{username}"; //spitterId会自动加上的
     }
 
 
@@ -55,9 +59,10 @@ public class SpitterController {
 
     @RequestMapping(value="/{username}", method=GET)
     public String showSpitterProfile(@PathVariable String username, Model model) {
-        Spitter spitter = spitterRepository.findByUsername(username);
-        model.addAttribute(spitter);
-        return "profile";
+       if (!model.containsAttribute("spitter")) {
+                model.addAttribute(spitterRepository.findByUsername(username));
+        return  "profile";
+        }
     }*/
 
 }

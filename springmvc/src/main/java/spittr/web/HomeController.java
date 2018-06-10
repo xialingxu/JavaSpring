@@ -16,4 +16,10 @@ public class HomeController {
         return "home";
     }
 
+    @RequestMapping(value="/react",method = GET)
+    public String reactPage(Model model) {
+
+        return "reactPage";
+    }
+
 }

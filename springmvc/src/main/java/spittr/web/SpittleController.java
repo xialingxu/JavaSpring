@@ -19,7 +19,11 @@ public class SpittleController {
     @RequestMapping(value = "/{spittleId}", method = RequestMethod.GET)
     public String spittle(@PathVariable("spittleId") long spittleId,Model model)
     {
-        model.addAttribute("spittleList", spittleRepository.findOne(spittleId));
+        Spittle spittle = spittleRepository.findOne(spittleId);
+        if (spittle == null) {
+         throw new SpittleNotFoundException(); //抛出自定义异常，自定义异常中有设定http的返回状态码
+        }
+        model.addAttribute("spittleList", spittle);
         return "spittle";
     }
 
